@@ -17,13 +17,16 @@ public class Mushroom : Enemy
         base.StartEnemy();
         enemyWidth=0.5f;
         enemyHeight=0.5f;
-        rayOffset=Vector3.zero;
+        enemyHead=0.95f;
+        rayOffsetOriginSides=Vector3.zero;
+        rayOffsetOriginUpwards= new Vector3(-enemyWidth,enemyHeight,0);
+        rayOffsetDirUpw=Vector3.right;
         initialScale=transform.GetChild(0).localScale;        
     }
 
     void FixedUpdate()
     {
-        (direction, enemyDamaged)= FixedUpdateMovement(direction, enemyDamaged, originalPosition);
+        (direction, enemyDamaged)= FixedUpdateMovement(direction, enemyDamaged, originalPosition, rayOffsetDirUpw);
         if (enemyDamaged)
         {
             StartCoroutine(TotalDeath());
