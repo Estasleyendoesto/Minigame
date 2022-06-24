@@ -8,14 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: bullet
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: a9a8211f737bfbd4fb8a469399c59177, type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -59,6 +58,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
@@ -68,6 +68,7 @@ Material:
     - _Metallic: 0.12
     - _Mode: 3
     - _OcclusionStrength: 1
+    - _OutlineWidth: 0.04
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -77,4 +78,5 @@ Material:
     m_Colors:
     - _Color: {r: 0, g: 0.95056653, b: 1, a: 1}
     - _EmissionColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+    - _OutlineColor: {r: 0.009433985, g: 0.009433985, b: 0.009433985, a: 1}
   m_BuildTextureStacks: []

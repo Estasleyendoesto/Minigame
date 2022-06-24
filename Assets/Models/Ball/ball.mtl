@@ -1,0 +1,20 @@
+newmtl material0
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd baball_0.png
+
+newmtl material1
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd baball_0.png
+
+newmtl material2
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd baball_1.png
+
+newmtl material3
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd baball_2.png
+

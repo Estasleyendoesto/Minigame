@@ -23,6 +23,8 @@ TagManager:
   - Enemy
   - Powerup
   - Bomb
+  - checkout
+  - superroca
   layers:
   - Default
   - TransparentFX
